@@ -1,4 +1,4 @@
-import image from "../../public/sample.png";
+import image from "/sample.png";
 
 export function Welcome() {
   return (

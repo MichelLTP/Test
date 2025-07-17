@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   const handleTouchStart = (event: React.TouchEvent) => {
     if (event.touches.length === 2) {
-      alert("Double touch detected!");
+      alert(event.touches.length);
       // You can trigger any action here
     }
   };
